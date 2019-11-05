@@ -10,7 +10,11 @@
 
     <body>
         @include('templates.menu-lateral')
-        @yield('conteudo-view')
+        <section>
+            
+            @yield('conteudo-view')
+                
+        </section>
         @yield('js-view')   
     </body>
 
