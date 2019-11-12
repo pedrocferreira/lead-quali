@@ -14,7 +14,7 @@
 @section('conteudo-view')
 
 
-   {!!  Form::open(['method' => 'post', 'class' => 'form-padrao']) !!}
+   {!!  Form::open(['route' => 'user.store' , 'method' => 'post', 'class' => 'form-padrao']) !!}
         @include('templates.formulario.input', ['label' => 'Nome' , 'input' => 'nome', 'attributes'=> ['placeholder'=> 'Nome']])
         @include('templates.formulario.input', ['label' => 'Empresa' , 'input' => 'empresa', 'attributes'=> ['placeholder'=> 'Empresa' ]])
         @include('templates.formulario.input', ['label' => 'Tipo Usuario','input' => 'tipo_user', 'attributes'=> ['placeholder'=> 'Tipo Usuario']])
