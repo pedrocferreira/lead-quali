@@ -22,7 +22,7 @@ class UsersController extends Controller
 {
  
     protected $repository;
-
+     protected $service;
 
 
     
@@ -57,7 +57,7 @@ class UsersController extends Controller
     {
 		$request = $this->service->store($request->all());
 		$usuario = $request['success'] ? $request['data'] : null;
-		session()->flash('success', [
+		session ()->flash('success', [
 			'success' 	=> $request['success'],
 			'messages' 	=> $request['messages']
 		]);
