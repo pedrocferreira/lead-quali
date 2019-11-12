@@ -35,6 +35,7 @@ body{
     float: left;
     width: 280px;
     height: 100%;
+    z-index: 5;
     background-color: #ffffff;
     border-right: 1px solid #e9e9e9;
     box-shadow: 0 0 15px rgba(0,0,0,15);
@@ -89,6 +90,7 @@ body{
 
 
 
+<<<<<<< HEAD
 
 form.form-padrao{
      float: left;
@@ -131,4 +133,13 @@ form.form-padrao label input{
 form.form-padrao label.submit{
     background-color: #551a8b;
     border-color: #862cd8;
+=======
+#view-conteudo{
+    position: fixed;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 240px;
+    z-index: 1;
+>>>>>>> 5e3b39c4cb5677c2f138e72da5fb89aa329c10a3
 }
