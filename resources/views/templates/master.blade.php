@@ -11,19 +11,17 @@
 
     <body>
         @include('templates.menu-lateral')
-<<<<<<< HEAD
+  
         <section>
             
             @yield('conteudo-view')
                 
         </section>
-=======
 
-        <section id="view-conteudo">
-            @yield('conteudo-view')
-        </section>
 
->>>>>>> 5e3b39c4cb5677c2f138e72da5fb89aa329c10a3
+       
+
+
         @yield('js-view')   
    
 
