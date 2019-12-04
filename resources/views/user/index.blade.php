@@ -51,7 +51,13 @@
 				<td>{{$user->empresa_id}}</td>
 				<td>{{$user->tipo_user}}</td>
 				<td>{{$user->email}}</td>
-				<td>{{$user->login}}</td>
+                <td>{{$user->login}}</td>
+                <td>
+                    {!! Form::open (['route' => ['user.destroy',$user->id], 'method' => 'DELETE']) !!}
+                    {!! Form::submit('Remover ') !!}
+                    {!! Form::close() !!}
+                    Remover
+                </td>
 			</tr>
             @endforeach
 		</tbody>

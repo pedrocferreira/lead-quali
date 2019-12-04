@@ -106,7 +106,9 @@ class UsersController extends Controller
      */
     public function destroy($id)
     {
-		$request = $this->service->destroy($id);
+        $request = $this->service->destroy($id);
+
+        
 		session()->flash('success', [
 			'success' 	=> $request['success'],
 			'messages' 	=> $request['messages']

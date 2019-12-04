@@ -36,7 +36,7 @@ class User extends Authenticatable
 	{
 		$this->attributes['password'] = env('PASSWORD_HASH') ? bcrypt($value) : $value;
 	}
-
+    
 
 
 }

@@ -9,14 +9,14 @@
         </li>
 
         <li>
-            <a href="">
+            <a href="/lead">
                <i class="fa fa-fire"></i>
                 <h3>Leads</h3>
             </a>
             
         </li>
         <li>
-            <a href="">
+            <a href="/empresa">
                 <i class="fa fa-building"></i>
                 <h3>Empresas</h3>
             </a>

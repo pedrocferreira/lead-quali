@@ -27,10 +27,9 @@ class CreateLeadsTable extends Migration
 
 
 			$table->timestamps();
-						
-			
+
 			$table->foreign('empresa_id')->references('id')->on('empresas');
-			$table->foreign('qualificado_id')->references('id')->on('qualificacaos')->onDelete('cascade');
+			$table->foreign('qualificado_id')->references('id')->on('qualificacaos');
 
 		});
 	}
